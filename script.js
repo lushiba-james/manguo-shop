@@ -12,4 +12,4 @@ if(bar){
 if(close){
     bar.addEventListener('click', () => {
         nav.classList.remove('active');
-    })
+     })
