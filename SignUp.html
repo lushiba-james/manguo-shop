@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sign Up</title>
+    <style>
+        body {
+            background-image: url(features/online.jpeg);
+            opacity: 250%; 
+            font-size: large;
+            @media screen and (max-width: 480px){
+                opacity: 270%;
+                color: blue;
+        }
+    }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>
+            Welcome to Focused Manguo.
+        </h1>
+    
+        <form action="POST">
+            <tr>
+                <td>
+                    <p>First name:</p>
+                    <input type="text" name="Name" placeholder="your first name" ><br>
+               </td>
+                <td>
+                    <p>Middle name:</p>
+                   <input type="text" name="middle name" placeholder="your middle name" required>
+                </td>
+    
+                <td>
+                    <p>Last name:</p>
+                    <input type="text" name="last name" placeholder="yourlast name" required>
+                </td>
+                <td>
+                    <p>Email</p>
+                    <input type="email" name="Email" placeholder="focusedmanguo@gamil.com" required><br>
+                </td>
+                
+                <td>
+                    <p>Enter new password:</p>
+                    <input type="password" name="new password" placeholder="new password"required>
+                </td>
+
+                <p>Confirm password</p>
+                <input type="password" name="Confirm password" placeholder="confirm password"required><br>
+    
+            </tr>
+            
+            <td >
+                <input style="margin-top: 15PX;" type="button" name="submit" value="submit" required>
+            </td>
+        </form>
+    </center>
+
+</body>
+</html>
