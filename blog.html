@@ -7,8 +7,33 @@
         <TItle>blog page</TItle>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <!--video background by falisy -->
+        <style>
+            body {
+                margin: 0;
+                overflow: hidden;
+            }
+    
+            video {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                transform: translate(-50%, -50%);
+                z-index: -1;
+            }
+        </style>
     </head>
     <body>
+          <!-- Video element -->
+    <video autoplay muted loop>
+        <source src="new/Mistral AI - Open-weight models.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+        
          <!-- header section starts here -->
          <section id="header">
             <a href="#"><img class="logo" src="logo.png " alt=""></a>
